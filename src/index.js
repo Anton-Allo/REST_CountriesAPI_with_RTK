@@ -6,7 +6,7 @@ import { createRoot } from 'react-dom/client';
 import './index.css';
 import App from './App';
 
-import { store } from './store';
+import { store } from './store.js';
 
 const container = document.getElementById('app');
 const root = createRoot(container);
